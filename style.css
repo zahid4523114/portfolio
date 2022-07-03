@@ -1,0 +1,19 @@
+body {
+  background-color: #eaf6f6;
+}
+.profile,
+td {
+  padding: 10px;
+}
+hr {
+  border: none;
+  width: 5%;
+  border-width: 5px;
+  border-top-style: dotted;
+  color: gray;
+}
+h1,
+h2,
+h3 {
+  color: #66bfbf;
+}
