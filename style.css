@@ -1,19 +1,72 @@
-body {
+* {
   background-color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .profile,
 td {
   padding: 10px;
 }
 hr {
-  border: none;
+  /* border: none;
   width: 5%;
   border-width: 5px;
-  border-top-style: dotted;
+  border-top-style: dotted; */
   color: gray;
 }
-h1,
+h1 {
+  color: #66bfbf;
+  text-align: center;
+  text-decoration: underline;
+}
 h2,
 h3 {
   color: #66bfbf;
+  text-align: center;
+}
+
+.elements,
+.hobbies {
+  text-align: center;
+  list-style: none;
+}
+.elements li {
+  display: inline-block;
+  background-color: rgb(20, 193, 220);
+  padding: 10px;
+  margin: 30px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(112, 112, 112);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hobbies li {
+  display: inline-block;
+  background-color: #14c1dc;
+  padding: 10px;
+  margin: 30px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(112, 112, 112);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn {
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  background-color: crimson;
+}
+.btn a {
+  text-decoration: none;
+  background: none;
+  color: #eaf6f6;
 }
